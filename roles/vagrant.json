@@ -1,0 +1,12 @@
+{
+  "name": "vagrant",
+  "description": "Vagrant boostrap",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "run_list": [
+    "role[bootstrap]"
+  ],
+  "override_attributes": {
+    "app_name": "vagrant"
+  }
+}

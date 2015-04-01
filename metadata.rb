@@ -1,0 +1,7 @@
+name             'chef_repo'
+maintainer       'TungPhan'
+maintainer_email 'tungphan@asnet.com.vn'
+license          'All rights reserved'
+description      'Installs/Configures'
+long_description 'Installs/Configures'
+version          '0.1.0'
