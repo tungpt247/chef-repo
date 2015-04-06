@@ -5,3 +5,6 @@ license          'All rights reserved'
 description      'Installs/Configures'
 long_description 'Installs/Configures'
 version          '0.1.0'
+
+depends 'locale'
+depends 'nodejs'
