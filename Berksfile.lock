@@ -1,5 +1,7 @@
 DEPENDENCIES
   build-essential
+  chap8
+    path: cookbooks/chap8
   chef_repo
     path: .
     metadata: true
@@ -16,6 +18,8 @@ DEPENDENCIES
     revision: 4d3361995a6953076951693eff1b326ab499fe1e
   rvm (~> 0.9.2)
   sudo (~> 2.7.1)
+  sys_users
+    path: cookbooks/sys_users
 
 GRAPH
   7-zip (1.0.2)
@@ -27,10 +31,13 @@ GRAPH
   bluepill (2.3.1)
     rsyslog (>= 0.0.0)
   build-essential (2.2.2)
+  chap8 (0.1.0)
   chef-sugar (3.1.0)
   chef_gem (0.1.0)
   chef_handler (1.1.6)
   chef_repo (0.1.0)
+    locale (>= 0.0.0)
+    nodejs (>= 0.0.0)
   dmg (2.2.2)
   git (4.1.0)
     build-essential (>= 0.0.0)
@@ -73,6 +80,7 @@ GRAPH
     chef_gem (>= 0.0.0)
     java (>= 0.0.0)
   sudo (2.7.1)
+  sys_users (0.1.0)
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   yum (3.5.3)

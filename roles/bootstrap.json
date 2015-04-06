@@ -5,7 +5,8 @@
   "chef_type": "role",
   "run_list": [
     "recipe[locale]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[sys_users]"
   ],
   "override_attributes": {
     "locale": {
