@@ -1,5 +1,7 @@
 DEPENDENCIES
   build-essential
+  chap8
+    path: cookbooks/chap8
   chef_repo
     path: .
     metadata: true
@@ -29,6 +31,7 @@ GRAPH
   bluepill (2.3.1)
     rsyslog (>= 0.0.0)
   build-essential (2.2.2)
+  chap8 (0.1.0)
   chef-sugar (3.1.0)
   chef_gem (0.1.0)
   chef_handler (1.1.6)

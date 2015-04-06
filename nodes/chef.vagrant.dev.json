@@ -1,6 +1,6 @@
 {
   "run_list": [
-    "role[vagrant]"
+    "role[practices]"
   ],
   "automatic": {
     "ipaddress": "chef.vagrant.dev"

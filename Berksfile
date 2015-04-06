@@ -17,3 +17,4 @@ cookbook 'sudo', '~> 2.7.1'
 # cookbook "__nginx", path: "cookbooks/__nginx"
 # cookbook "rails_app", path: "cookbooks/rails_app"
 cookbook "sys_users", path: "cookbooks/sys_users"
+cookbook "chap8", path: "cookbooks/chap8"
